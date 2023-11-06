@@ -46,12 +46,15 @@ header .form {
   align-items: center;
   padding: 2px;
   font-size: 11px;
+  width: 50%;
 }
 header nav {
   font-size: 12px;
   margin-left: 20px;
 }
-
+nav {
+  display: none;
+}
 header ul li {
   list-style-type: none;
 }
@@ -174,11 +177,70 @@ article div.main-article {
   padding: 15px;
 }
 
+footer {
+  text-align: center;
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer .fas {
+  color: #1259c3;
+}
+
+footer section p {
+  margin-top: 5px;
+}
+
+footer i {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+footer i:hover {
+  color: #8a8322;
+}
+
 @media (min-width: 361px) {
+
+  .footer {
+    display: flex;
+  }
+  header nav {
+    font-size: 12px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+  display: flex;
+  padding: 20px;
+}
+.copyright {
+  display: flex;
+  font-size: 12px;
+}
+li {
+  padding: 5px;
+}
+div.top-header {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5%;
+}
   main section article .description {
     display: block;
   }
 
+  nav {
+ 
+    display: block;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+  
   main section article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
