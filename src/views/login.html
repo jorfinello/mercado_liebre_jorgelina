@@ -42,15 +42,59 @@
             <i class="fa fa-bars burger"></i>
         </div>
     </header>
-    <main class="login">
-        <form action="/login" method="POST">
-            <input type="text" name="user" placeholder="Nombre de usuario">
-            <input type="password" name="pass" placeholder="Elegí tu contraseña">
-            <button type="submit">Enviar</button>
-        </form>
-    </main>
-    <footer>
-
+    <form action="/" class="form-container">
+      <div>
+        <label for="">
+          <input
+            type="text"
+            name="username"
+            placeholder="Nombre de Usuario"
+            class="input-text"
+          />
+        </label>
+      </div>
+      <div>
+        <input
+          type="password"
+          placeholder="Ingrese su contraseña"
+          class="input-password"
+        />
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+    
+    <footer class="texto-centrado" style="padding: 10px">
+      <div class="footer">
+        <section style="margin-bottom: 30px">
+            <i class="fas fa-credit-card"></i>
+            <h4>Pagá con tarjeta o en efectivo</h4>
+            <p>
+              Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+              efectivo en puntos de pago. ¡Y siempre es seguro!
+            </p>
+          </section>
+          <section style="margin-bottom: 30px">
+            <i class="fas fa-gift"></i>
+            <h4>Envío gratis desde los $2.500</h4>
+            <p>
+              Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+              miles de productos. Es un beneficio de Mercado Puntos.
+            </p>
+          </section>
+          <section style="margin-bottom: 30px">
+            <i class="fas fa-user-shield"></i>
+            <h4>Seguridad de principio a fin</h4>
+            <p>
+              ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+              hacer, porque estás siempre protegid@.
+            </p>
+          </section>
+        </div>
+          <section>
+            <h4 class="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+          </section>
     </footer>
 </body>
 
